@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gravi2d</title>
+
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                background-color: #181818;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            #canvas {
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                outline: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <canvas id="canvas"></canvas>
+
+        <script>
+        var Module = {
+            canvas: document.getElementById('canvas')
+        };
+        </script>
+        <script async src="gravi2d.js"></script>
+    </body>
+</html>
+
