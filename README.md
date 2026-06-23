@@ -4,5 +4,5 @@ A collection of small games and demos that I've made and compiled to WASM with E
 
 | Games & Demos | Description |
 | --- | --- |
-| Gravi2D | 2D gravity simulation sandbox |
+| [Gravi2D](https://github.com/ryan-rashidian/gravi2d) | 2D gravity simulation sandbox |
 
